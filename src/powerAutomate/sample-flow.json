@@ -1,0 +1,91 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "flowName": {
+      "type": "string",
+      "defaultValue": "EnergyAlertFlow"
+    }
+  },
+  "variables": {},
+  "resources": [
+    {
+      "type": "Microsoft.Logic/workflows",
+      "apiVersion": "2019-05-01",
+      "name": "[parameters('flowName')]",
+      "location": "[resourceGroup().location]",
+      "properties": {
+        "state": "Enabled",
+        "definition": {
+          "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+          "contentVersion": "1.0.0.0",
+          "parameters": {},
+          "triggers": {
+            "Recurrence": {
+              "recurrence": {
+                "frequency": "Hour",
+                "interval": 4
+              },
+              "type": "Recurrence"
+            }
+          },
+          "actions": {
+            "Get_Power_BI_Data": {
+              "runAfter": {},
+              "type": "Http",
+              "inputs": {
+                "method": "GET",
+                "uri": "@parameters('powerBiApiEndpoint')",
+                "headers": {
+                  "Authorization": "Bearer @{parameters('powerBiToken')}"
+                }
+              }
+            },
+            "Analyze_Energy_Data": {
+              "runAfter": {
+                "Get_Power_BI_Data": [
+                  "Succeeded"
+                ]
+              },
+              "type": "Compose",
+              "inputs": "@body('Get_Power_BI_Data')"
+            },
+            "Check_Alert_Conditions": {
+              "actions": {
+                "Send_Teams_Notification": {
+                  "runAfter": {},
+                  "type": "Http",
+                  "inputs": {
+                    "method": "POST",
+                    "uri": "@parameters('teamsWebhookUrl')",
+                    "body": {
+                      "text": "Energy usage alert: Consumption exceeded threshold"
+                    }
+                  }
+                }
+              },
+              "runAfter": {
+                "Analyze_Energy_Data": [
+                  "Succeeded"
+                ]
+              },
+              "expression": {
+                "and": [
+                  {
+                    "greater": [
+                      "@outputs('Analyze_Energy_Data')",
+                      100
+                    ]
+                  }
+                ]
+              },
+              "type": "If"
+            }
+          },
+          "outputs": {}
+        }
+      }
+    }
+  ],
+  "outputs": {}
+} 

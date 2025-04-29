@@ -1,0 +1,39 @@
+{
+  "agent": {
+    "name": "Energenius Assistant",
+    "version": "1.0.0",
+    "description": "AI-powered energy management assistant"
+  },
+  "copilot": {
+    "model": "gpt-4",
+    "temperature": 0.7,
+    "maxTokens": 2000,
+    "prompts": {
+      "welcome": "Welcome to Energenius! How can I help you optimize your energy usage today?",
+      "error": "I apologize, but I encountered an issue. Please try again or contact support."
+    }
+  },
+  "integrations": {
+    "powerBI": {
+      "workspaceId": "${POWERBI_WORKSPACE_ID}",
+      "reportId": "${POWERBI_REPORT_ID}",
+      "refreshInterval": 300
+    },
+    "powerAutomate": {
+      "flowEndpoint": "${FLOW_ENDPOINT}",
+      "triggerType": "scheduled",
+      "scheduleInterval": "0 */4 * * *"
+    },
+    "teams": {
+      "botId": "${TEAMS_BOT_ID}",
+      "webhookUrl": "${TEAMS_WEBHOOK_URL}",
+      "notificationChannel": "energy-alerts"
+    }
+  },
+  "logging": {
+    "level": "info",
+    "format": "json",
+    "outputs": ["console", "file"],
+    "filename": "agent.log"
+  }
+} 

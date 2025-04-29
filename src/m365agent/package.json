@@ -1,0 +1,24 @@
+{
+  "name": "m365agent",
+  "version": "1.0.0",
+  "description": "Microsoft 365 integration agent for Energenius",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "@azure/identity": "^4.0.1",
+    "@azure/powerbi-client": "^2.21.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.56.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "Energenius Team",
+  "license": "MIT"
+} 
