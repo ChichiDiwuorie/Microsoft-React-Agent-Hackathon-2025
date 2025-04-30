@@ -35,7 +35,7 @@ Energenius is built on a modern, scalable architecture leveraging Microsoft's cl
 4. Notifications → Microsoft Teams
 
 ## Security Architecture
-- Azure AD authentication
+- Azure Entra ID authentication
 - Role-based access control
 - Data encryption at rest and in transit
 - Audit logging and monitoring
@@ -43,5 +43,4 @@ Energenius is built on a modern, scalable architecture leveraging Microsoft's cl
 ## Integration Points
 - Azure Services
 - Third-party APIs
-- Legacy systems
-- IoT devices 
+- Legacy systems 
