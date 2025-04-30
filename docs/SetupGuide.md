@@ -15,8 +15,8 @@ git clone <repository-url>
 cd energenius
 ```
 
-### 2. Configure Azure AD
-1. Create a new Azure AD application
+### 2. Configure Entra ID
+1. Create a new Entra ID application
 2. Copy `config/azure-ad-config.json.template` to `config/azure-ad-config.json`
 3. Update with your Azure AD credentials
 
