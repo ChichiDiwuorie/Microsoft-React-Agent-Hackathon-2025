@@ -3,7 +3,7 @@
 ## 📌 Project Overview
 Energenius is an AI-powered energy management solution designed to optimize efficiency through intelligent automation. It enables users to analyze energy consumption trends, receive predictive insights, and automate energy-related workflows.
 
-## ⚡ Tech Stack
+## ⚡ Tech Stack & Languages
 - **Microsoft Copilot Studio** – AI-driven query response system.
 - **Power BI** – Data visualization and analytics dashboards.
 - **Power Automate** – Automated workflows for scheduled reports and alerts.
@@ -24,11 +24,13 @@ Refer to our visual workflow documentation.
 - **Automation Specialist** – Configures Power Automate workflows.
 - **Integration Lead** – Manages Microsoft Teams and SDK connectivity.
 
-## 🛠️ Installation & Setup
+## 🛠️ Installation & Setup Overview
 1. Clone the repository:  
    ```bash
    git clone <repo-link>
    cd energenius
+
+## 👩🏽‍💼👨🏾‍💼 Use Cases
 
 ## 🎬 Demo & Submission Details
 Testing examples and strategy included.
