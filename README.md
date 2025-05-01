@@ -1,4 +1,4 @@
-# 🌎 Energenius – Sustainable Energy Optimization Copilot  
+# 🌎 Energenius – Sustainable Energy Optimization Copilot Agent  
 
 ##  Project Name  
 **Energenius – Smart AI Agent for Sustainable Energy Management** designed to optimize **renewable energy efficiency
