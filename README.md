@@ -1,7 +1,7 @@
 # 🌎 Energenius – Sustainable Energy Optimization Copilot Agent  
 
 ##  Project Name  
-**Energenius – Smart AI Agent for Sustainable Energy Management** designed to optimize **renewable energy efficiency
+**Energenius – Declarative AI Agent for Sustainable Energy Management** is designed to optimize renewable energy efficiency
 
 ## Overview  
 Energenius is an intelligent energy management system designed to optimize energy recovery, enhance workforce safety, forecast grid reliability, automate reporting, and ensure sustainability compliance. Powered by AI and integrated with Microsoft tools like **Power BI**, **Copilot Studio**, and **Power Automate**, Energenius drives efficiency across the energy sector.
@@ -83,7 +83,7 @@ By leveraging **Copilot Studio and Microsoft 365 technologies**, Energenius enha
 - Predicts grid performance risks using structured insights from **Copilot Studio**.  
 - Sends automated alerts to operators when consumption patterns indicate potential failures.  
 
-### 📊 AI-Driven Reports for Energy Operations  
+### AI-Driven Reports for Energy Operations  
 **Challenge:** Energy operators lack real-time, automated reporting for performance metrics.  
 **Solution:**  
 - Generates daily/monthly sector-specific energy reports using **Power Automate**.  
@@ -130,17 +130,10 @@ By leveraging **Copilot Studio and Microsoft 365 technologies**, Energenius enha
 
 ---
 
-## 🔹 End User Roles / Personas  
+##  End User Roles / Personas  
 ✔ **Energy Operators** → Use AI insights for decision-making.  
 ✔ **Grid Engineers** → Validate power system efficiency using structured data.  
 ✔ **Sustainability Analysts** → Forecast renewable trends via Power BI.  
-
----
-
-## Project Repository & Deployment  
-- **GitHub Repository URL:** (https://github.com/ChichiDiwuorie/Project-Energenius-Microsoft-365-SDK-Copilot-Studio.git)  
-- **Deployed Endpoint URL:** N/A
-- **Project Demo Video Link:** https://youtu.be/IReOtMRpJrQ 
 
 ---
 
@@ -180,6 +173,12 @@ By leveraging **Copilot Studio and Microsoft 365 technologies**, Energenius enha
 - Uses **Copilot Studio** knowledge retrieval for **CO₂ reduction trends**.  
 - Extracts compliance insights from renewable energy adoption datasets.  
 - Generates structured reports aligning with government & corporate sustainability goals.  
+
+---
+
+## Pitch Deck  
+
+[Energenius Pitch Deck.pptx](https://github.com/user-attachments/files/19996916/Energenius.Pitch.Deck.pptx)
 
 ---
 
