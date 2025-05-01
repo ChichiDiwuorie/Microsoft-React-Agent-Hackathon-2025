@@ -42,5 +42,4 @@ Energenius is built on a modern, scalable architecture leveraging Microsoft's cl
 
 ## Integration Points
 - Azure Services
-- Third-party APIs
 - Legacy systems 
