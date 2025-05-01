@@ -50,7 +50,7 @@ By leveraging **Copilot Studio and Microsoft 365 technologies**, Energenius enha
 ✔ **Fast access to relevant energy data with minimal user input**.  
 ✔ **Uses Power Automate triggers to auto-deliver reports on a predefined schedule**.  
 
-🔥 **Why This Setup Wins?**  
+🔥 **Energenius Value Proposition**  
 ✔ **Efficiency** → No need for AI model training; relies on structured knowledge sources.  
 ✔ **Integration** → Microsoft 365 tools ensure automation & collaboration.  
 ✔ **Reliability** → Consistent, fact-based insights for energy operators.  
@@ -58,11 +58,47 @@ By leveraging **Copilot Studio and Microsoft 365 technologies**, Energenius enha
 
 ---
 
-## 🔹 Use Cases  
-✔ **Energy Recovery Optimization** → Identifies unused renewable energy sources.  
-✔ **Workforce Safety Enhancement** → Alerts operators on grid hazards.  
-✔ **Grid Reliability Forecasting** → Uses predictive insights to avoid failures.  
-✔ **Scheduled AI-Driven Reports** → Auto-delivers consumption analytics to Teams.  
+## 🚀 Business Use Cases  
+
+### ⚡ Energy Recovery Optimization  
+**Challenge:** Renewable energy sources, such as solar and wind, often produce excess energy that goes underutilized.  
+**Solution:**  
+- Leverages historical and real-time consumption trends to identify surplus energy.  
+- Provides sector-specific insights for optimized redistribution of unused energy.  
+- Integrates **Power BI dashboards** for tracking recoverable resources in data centers or power grids.  
+
+### 🏗 Workforce Safety Enhancement  
+**Challenge:** Energy infrastructure technicians face safety risks due to unpredictable grid failures and hazardous environments.  
+**Solution:**  
+- Uses **Copilot Studio** structured queries to provide real-time safety alerts.  
+- Triggers **Teams notifications** based on grid efficiency drops or equipment faults.  
+- Automates technician alerts via **Power Automate workflows** for proactive maintenance.  
+
+### 🔮 Grid Reliability Forecasting  
+**Challenge:** Energy demand surges can cause grid instability, leading to outages and inefficiencies.  
+**Solution:**  
+- Analyzes renewable vs. traditional energy usage trends via **Power BI dashboards**.  
+- Predicts grid performance risks using structured insights from **Copilot Studio**.  
+- Sends automated alerts to operators when consumption patterns indicate potential failures.  
+
+### 📊 AI-Driven Reports for Energy Operations  
+**Challenge:** Energy operators lack real-time, automated reporting for performance metrics.  
+**Solution:**  
+- Generates daily/monthly sector-specific energy reports using **Power Automate**.  
+- Publishes structured insights automatically to **Teams** for collaboration.  
+- Stores AI-generated reports in **SharePoint/OneDrive** for seamless access.  
+
+### 🌱 Sustainability Tracking & Compliance Monitoring  
+**Challenge:** Governments and enterprises need data-driven proof of sustainability progress.  
+**Solution:**  
+- Uses **Copilot Studio** knowledge retrieval for **CO₂ reduction trends**.  
+- Extracts compliance insights from renewable energy adoption datasets.  
+- Generates structured reports aligning with government & corporate sustainability goals.  
+
+---
+
+### Architecture
+![hb](https://github.com/user-attachments/assets/ca893506-1e84-4d77-8746-bafd313a5f78)
 
 ---
 
@@ -109,8 +145,8 @@ By leveraging **Copilot Studio and Microsoft 365 technologies**, Energenius enha
 
 ## 🔹 Project Repository & Deployment  
 - **GitHub Repository URL:** _[Link to GitHub repo]_  
-- **Deployed Endpoint URL:** _[Energenius Live Deployment]_  
-- **Project Demo Video Link:** _[Link to Hackathon Demo Video]_  
+- **Deployed Endpoint URL:** N/A
+- **Project Demo Video Link:** https://youtu.be/IReOtMRpJrQ 
 
 ---
 
@@ -123,7 +159,7 @@ By leveraging **Copilot Studio and Microsoft 365 technologies**, Energenius enha
 ✔ **Integrates Power BI dashboards for real-time energy reporting**.  
 ✔ **Configures Power Automate workflows for scheduled reports & alerts**.  
 
-### **Technical Program Manager (Chichi)**  
+### **Technical Program Manager (Chinwendu)**  
 ✔ **Aligns project with hackathon criteria & scoring optimization**.  
 ✔ **Manages system documentation & architecture for submission**.  
 
